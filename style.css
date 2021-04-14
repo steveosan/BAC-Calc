@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color:#ffffff;
+        
+    }
+   .row{     
+        /* margin-top: 1rem; */
+        background: #dbdfe5;
+
+    }
+    .col{
+
+        padding: 10px 15px 10px 10px;
+        background: #abb1b8;
+        /* border: 1px solid rgba(0,0,0,0.5) */
+    }
+    #box{
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-top: 35px;
+        display: inline-block;
+        background: #dbdfe5;
+        
+     }
+     #box h1{
+        text-align: center;
+        font-size: 4vw;
+        font-weight: 900;
+        padding-bottom: 25px;
+        
+    }
+     #box h2{
+         text-align: center;
+         font-size: 3vw;
+     }
+     .output{
+         display: none;
+     }
+     #output2{
+         display: none;
+     }
+
+     input{
+         text-align: center;
+     }
+     /* radio button Male */
+     #buttonz {  
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 3vw;
+     }
+    /* radio button Female */
+     #buttonz2{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: left;
+        font-weight: bolder;
+        font-size: 3vw;
+        
+        
+     }
+     #disclaimer {
+    padding: 10px;
+     }
+
+     #calcButton{
+        padding: 5px;
+        display: inline-block;
+        padding:1.3em 1.2em;
+        margin:0 0.3em 0.3em 0;
+        border-radius:2em;
+        box-sizing: border-box;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        color:#FFFFFF;
+        background-color:#2e576e;
+        text-align:center;
+        transition: all 0.2s;
+        border: none;
+        outline: none;
+     }
+     #calcButton:hover{
+        background-color:#4095c6;
+        clear: both;
+     }
+
+
+     #output2 {
+        animation-duration: 1200ms;
+        animation-name: blink;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        -webkit-animation:blink 1200ms infinite; /* Safari and Chrome */
+    }
+    @keyframes blink {
+        from {
+            color:red;
+        }
+        to {
+            color:blue;
+        }
+    }
+    @-webkit-keyframes blink {
+        from {
+            color:red;
+        }
+        to {
+            color:blue;
+        }
+    }
+
